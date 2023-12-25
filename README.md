@@ -90,7 +90,9 @@ Ensure that the columns are labeled "City," "IATA Code," and "Lowest Price" resp
   - `YOUR_NUMBER`: Your phone number to receive messages.
 - For Kiwi API:
   - `KIWI_API_KEY`: API key for the Kiwi API.
- 
+
+ **Note**: Before running the script, ensure to replace the `ORIGIN_COUNTRY_IATA` constant in the main_script.py file with your actual origin IATA city code. This code represents the country of origin for the flight searches.
+
 
 ## Configuration
 - `data_manager.py`: Configure Google Sheet URLs and headers.
